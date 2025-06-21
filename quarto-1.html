@@ -115,6 +115,8 @@ Attaching package: 'palmerpenguins'</code></pre>
 # ℹ 334 more rows
 # ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;</code></pre>
 </div>
+</div>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean dataset: remove rows with NA</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>penguins_clean <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(bill_length_mm, bill_depth_mm, body_mass_g, sex)</span>
@@ -144,11 +146,12 @@ Attaching package: 'palmerpenguins'</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="quarto-1_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="quarto-1_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>```</p>
 
 </main>
 <!-- /main column -->
